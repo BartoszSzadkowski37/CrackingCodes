@@ -48,7 +48,7 @@ for key in range(len(letters)):
             translated = translated + symbol
 
     # print the encrypted/decrypted string to the screen
-    print(translated)
+    print('Key #%s %s' % (key, translated))
 
 # copy the encrypted/decrypted string to the clipboard
-pyperclip.copy(translated)
+# pyperclip.copy(translated)
